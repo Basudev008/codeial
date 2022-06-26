@@ -1,4 +1,5 @@
 const User = require('../models/user');
+const { use } = require('../routes/users');
 
 
 module.exports.profile = function(req,res){
@@ -48,5 +49,5 @@ module.exports.create = function(req,res){
 
 //sign in and create a session for the user
 module.exports.createSession = function(req,res){
-    //TODO LATER
+    return res.redirect('/');
 }
