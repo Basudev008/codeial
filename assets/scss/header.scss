@@ -1,0 +1,29 @@
+header{
+ul{
+    background-color: rgb(0, 136, 255);
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0 1rem;
+    list-style: none;
+    height: auto;
+    font: 2rem Helvetica, Sans-serif;
+    color: white;
+    font-weight: 600;
+
+    a{
+        text-decoration: none;
+        color: white;
+        font-weight: 300;
+        font-size: 1.5rem;
+    }
+
+    li:first-child{
+        width: 85%;
+    }
+
+    li{
+        padding: 1rem;
+    }
+}
+}
